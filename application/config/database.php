@@ -75,11 +75,11 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => '',
-	'username' => '',
-	'password' => '',
-	'database' => '',
-	'dbdriver' => '',
+	'hostname' => $HOSTNAME,
+	'username' => $MYSQL_USER,
+	'password' => $MYSQL_PASSWORD,
+	'database' => $MYSQL_DATABASE,
+	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
 	'pconnect' => FALSE,
 	'db_debug' => (ENVIRONMENT !== 'production'),
