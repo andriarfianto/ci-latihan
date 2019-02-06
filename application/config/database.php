@@ -75,9 +75,9 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => 'localhost',
-	'username' => 'root',
-	'password' => 'root',
+	'hostname' => '',
+	'username' => '',
+	'password' => '',
 	'database' => 'db_latihan_ci',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
